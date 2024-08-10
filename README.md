@@ -92,10 +92,15 @@ If using Docker Compose:
 docker-compose down
 ```
 
-Troubleshooting
+## Troubleshooting
 
 Ensure Docker is running and properly configured on your system.
 Check the container logs with docker logs mysql-container for any issues.
 
-License
+```bash
+docker logs mysql-container
+```
+
+## License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
